@@ -1,1 +1,3 @@
-add
+lugar_1: ; Define "lugar_1" como o endereço onde estará...
+addi x1, x1, 1 ; ... esta instrução na memória de programa.
+beq x0, x0, lugar_1 ; Salta quando x0 for igual a x0 (sempre).Z
